@@ -1,0 +1,17 @@
+Remember that you can report errors and get help in https://github.com/NicoSantangelo/sublime-gulp
+
+08-16-2016 04:11:
+C:\site\2Months\_Fork2\_optimized_gulp_sass\.sublime-gulp-tmp.js:6
+gulp.task('browser-sync', ['styles', 'scripts'], function() {
+    ^
+SyntaxError: Unexpected token .
+    at Object.exports.runInThisContext (vm.js:76:16)
+    at Module._compile (module.js:513:28)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:458:32)
+    at tryModuleLoad (module.js:417:12)
+    at Function.Module._load (module.js:409:3)
+    at Module.require (module.js:468:17)
+    at require (internal/module.js:20:19)
+    at requireGulp (C:\Users\Boris\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
+    at Object.<anonymous> (C:\Users\Boris\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:83:12)
